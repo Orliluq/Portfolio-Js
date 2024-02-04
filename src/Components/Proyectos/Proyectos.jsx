@@ -121,7 +121,7 @@ const Proyectos = () => {
    
   ];
   return (
-    <section id="proyectos" className="w-full relative bg-orange-700 px-10 lg:px-16 pt-16 lg:pt-16 pb-10 h-full overflow-hidden"
+     <section id="proyectos" className="w-full relative bg-orange-700 px-4 sm:px-10 lg:px-16 pt-16 lg:pt-16 pb-10 h-full overflow-hidden"
     >
     <motion.div   ref={ref}
       initial="hidden"
