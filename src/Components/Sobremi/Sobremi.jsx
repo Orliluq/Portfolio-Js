@@ -71,7 +71,7 @@ const SobreMi = () => {
        }}
        transition={{ duration: 0.5 }} >
 
-        <img className="absolute z-30 right-0 lg:right-4 bottom-14 md:bottom-8 lg:bottom-10 hover:scale-110 transition-transform duration-200 transform-gpu border-4shadow-md hover:shadow-lg" src={perfil} alt="perfil" />
+        <img className="absolute z-30 right-0 lg:right-4 bottom-14 md:bottom-8 lg:bottom-10 hover:scale-110 transition-transform duration-200 transform-gpu hover:shadow-lg sm:right-1/2 sm:bottom-1/2" src={perfil} alt="perfil" />
       </motion.div>
 
       <motion.div className="w-full gap-20 font-oswald border rounded-lg border-orange-100 px-10 h-600"
