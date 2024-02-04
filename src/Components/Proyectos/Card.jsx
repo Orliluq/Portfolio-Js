@@ -9,7 +9,7 @@ const Card = ({ titles, subtitles, images }) => {
           alt=""
         />
         
-        <div className="absolute flex flex-col inset-0 text-orange-100 items-center justify-center gap-3 px-6 translate-y-[100%] group-hover:translate-y-0 transition-all duration-500">
+        <div className="absolute flex flex-col inset-0 text-black items-center justify-center gap-3 px-6 translate-y-[100%] group-hover:translate-y-0 transition-all duration-500">
           <div className="flex gap-5">
 
           <h5 className="font-oswald font-bold text-1xl lg:text-2xl uppercase tracking-tighter">{titles}</h5>
