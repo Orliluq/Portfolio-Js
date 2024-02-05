@@ -86,7 +86,7 @@ const SobreMi = () => {
 
     <h1 className=" font-bold tracking-tighter text-[20px] md:text-[40px] lg:text-[60px]  text-red-300 left-1/2 uppercase top-12  ">Sobre mi</h1>
       <p className="  text-orange-100 left-1/2 right-14 top-24  ">Hola 👋🏼 mi nombre es Orli Dun, gracias por estar aquí, un gusto que conozcas mi trabajo. Quiero contarte que me encanta tanto la experiencia de <strong className='text-[#e8f05d]'>usuario</strong> como el lado del <strong className='text-[#e8f05d]'>servidor.</strong> Me esfuerzo en la creación de soluciones funcionales con interfaces creativas e innovadoras. </p>
-    <h5 className=" font-bold text-[10px] md:text-[30px] lg:text-[50px] text-orange-100 left-1/2 uppercase top-40">Skills</h5>
+    <h2 className=" font-bold text-[10px] md:text-[30px] lg:text-[50px] text-orange-100 left-1/2 uppercase top-40">Skills</h2>
     
     <div className="flex flex-wrap gap-5 pb-10  ">
       <img className="w-8"  src={html} alt="html" />
