@@ -121,8 +121,7 @@ const Proyectos = () => {
    
   ];
   return (
-    <section id="proyectos" className="w-full relative bg-orange-700 px-4 sm:px-10 lg:px-16 py-4 md:py-8 lg:py-16"
-    >
+    <section id="proyectos" className="w-full relative bg-orange-700 px-4 sm:px-10 lg:px-16 py-4 md:py-8 lg:py-16">
     <motion.div   ref={ref}
       initial="hidden"
       animate={controls}
@@ -132,23 +131,26 @@ const Proyectos = () => {
       }}
       transition={{ duration: 0.5 }}>
 
-        <h5 className=' text-red-900 font-oswald font-bold tracking-tighter text-3xl md:text-[50px] lg:text-[100px] uppercase leading-none '> Mis 👩‍💻 proyectos</h5>
+      <h5 className='text-red-900 font-oswald font-bold tracking-tighter text-3xl md:text-[50px] lg:text-[100px] uppercase leading-none'>Mis 👩‍💻 proyectos</h5>
      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10 h-screen">
-        {cards.map((card) => (
-          <div key={card.id}>
-            <Card  className="w-full h-auto"
-              titles={card.title}
-              subtitles={card.subtitle}
-              images={card.image}  
-              github={card.github}
-              demo={card.demo}
-            />
-          </div>
-        ))}
+    <div className="container overflow-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {cards.map((card) => (
+            <div key={card.id}>
+              <Card className="w-full"
+                titles={card.title}
+                subtitles={card.subtitle}
+                images={card.image}
+                github={card.github}
+                demo={card.demo}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </motion.div>
-    </section>
+ </section>
+
   );
 };
 
