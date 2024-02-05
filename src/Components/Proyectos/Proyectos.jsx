@@ -121,7 +121,7 @@ const Proyectos = () => {
    
   ];
   return (
-     <section id="proyectos" className="w-full relative bg-orange-700 px-4 sm:px-10 lg:px-16 pt-16 lg:pt-16 pb-10 h-full overflow-hidden"
+    <section id="proyectos" className="w-full relative bg-orange-700 px-4 sm:px-10 lg:px-16 py-4 md:py-8 lg:py-16"
     >
     <motion.div   ref={ref}
       initial="hidden"
@@ -134,13 +134,13 @@ const Proyectos = () => {
 
         <h5 className=' text-red-900 font-oswald font-bold tracking-tighter text-3xl md:text-[50px] lg:text-[100px] uppercase leading-none '> Mis 👩‍💻 proyectos</h5>
      
-      <div className="flex flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 gap-5 pt-10 h-screen">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10 h-screen">
         {cards.map((card) => (
           <div key={card.id}>
-            <Card
+            <Card  className="w-full h-auto"
               titles={card.title}
               subtitles={card.subtitle}
-              images={card.image}
+              images={card.image}  
               github={card.github}
               demo={card.demo}
             />
