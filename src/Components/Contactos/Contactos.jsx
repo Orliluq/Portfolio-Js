@@ -58,7 +58,7 @@ const Contactos = () => {
       <i className="bi bi-geo-alt text-xl"></i>
       <p>Caracas, Dtto. Capital, Venezuela</p> 
     </div>
-    <div className="md:flex gap-1 md:gap-10 pb-10">
+    <div className="pb-10 justify-center">
           <button className="text-white font-bold bg-orange-700 p-5 rounded-md hover:bg-gray-800 transition-colors duration-200 submit-button hidden md:block" >
             <a href="https://docs.google.com/document/d/1-L1cOfyP21j8sdLuUBm7vkMgtMrtPazk57tfqzW_30U/edit?usp=sharing" download="CV.es.pdf">
              Download CV
