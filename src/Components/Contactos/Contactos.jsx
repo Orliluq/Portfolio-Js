@@ -59,11 +59,11 @@ const Contactos = () => {
       <p>Caracas, Dtto. Capital, Venezuela</p> 
     </div>
     <div className="pb-10 justify-center">
-          <button className="text-white font-bold bg-orange-700 p-5 rounded-md hover:bg-gray-800 transition-colors duration-200 submit-button hidden md:block" >
-            <a href="https://docs.google.com/document/d/1-L1cOfyP21j8sdLuUBm7vkMgtMrtPazk57tfqzW_30U/edit?usp=sharing" download="CV.es.pdf">
-             Download CV
-            </a> 
-          </button>
+    <button className="text-white font-bold bg-orange-700 p-2 md:p-5 rounded-md hover:bg-gray-800 transition-colors duration-200 submit-button">
+      <a href="https://docs.google.com/document/d/1-L1cOfyP21j8sdLuUBm7vkMgtMrtPazk57tfqzW_30U/edit?usp=sharing" download="CV.es.pdf">
+        Download CV
+      </a> 
+    </button>
         </div>
 
       <p>¡Hola! Me alegra mucho que te pongas en contacto conmigo. Estoy aquí para ayudarte en lo que necesites. Puedes preguntarme cualquier cosa, darme tu opinión o hablar de cualquier tema que te interese. ¡No dudes en escribirme!</p>
