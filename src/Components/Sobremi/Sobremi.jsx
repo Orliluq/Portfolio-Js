@@ -59,8 +59,7 @@ const SobreMi = () => {
   }, []);
 
   return (
-    <div   id="sobremi" className={` ${scrolear ? 'bg-orange-400' : ' bg-blue-950 '} w-full   lg:h-screen  flex flex-col md:flex-row lg:flex-row px-10 lg:px-16 gap-20 pt-5 lg:pt-20 pb-20 transition-all duration-500  `}
-   >
+    <div id="sobremi" className={`${scrolear ? 'bg-orange-400' : 'bg-blue-950'} w-full h-screen flex flex-col md:flex-row lg:flex-row px-10 lg:px-16 gap-5 md:gap-10 lg:gap-20 pt-5 lg:pt-20 pb-8 transition-all duration-500`}>
       <motion.div className="relative flex items-end  justify-center w-full " 
        ref={ref}
        initial="hidden"
@@ -71,10 +70,10 @@ const SobreMi = () => {
        }}
        transition={{ duration: 0.5 }} >
 
-        <img className="absolute z-30 right-0 lg:right-4 bottom-14 md:bottom-8 lg:bottom-10 hover:scale-110 transition-transform duration-200 transform-gpu hover:shadow-lg sm:right-1/2 sm:bottom-1/2" src={perfil} alt="perfil" />
+        <img className="relative z-30 right-0 lg:right-4 bottom-4 md:bottom-8 lg:bottom-10 hover:scale-110 transition-transform duration-200 transform-gpu hover:shadow-lg sm:right-1/2 sm:bottom-1/2" src={perfil} alt="perfil" />
       </motion.div>
 
-      <motion.div className="w-full gap-20 font-oswald border rounded-lg border-orange-100 px-10 h-600"
+      <motion.div className="w-full gap-10 font-oswald border rounded-lg border-orange-100 px-10 h-400"
         ref={ref}
         initial="hidden"
         animate={controls}
@@ -86,9 +85,9 @@ const SobreMi = () => {
 
     <h1 className=" font-bold tracking-tighter text-[20px] md:text-[40px] lg:text-[60px]  text-red-300 left-1/2 uppercase top-12  ">Sobre mi</h1>
       <p className="  text-orange-100 left-1/2 right-14 top-24  ">Hola 👋🏼 mi nombre es Orli Dun, gracias por estar aquí, un gusto que conozcas mi trabajo. Quiero contarte que me encanta tanto la experiencia de <strong className='text-[#e8f05d]'>usuario</strong> como el lado del <strong className='text-[#e8f05d]'>servidor.</strong> Me esfuerzo en la creación de soluciones funcionales con interfaces creativas e innovadoras. </p>
-    <h2 className=" font-bold text-[10px] md:text-[30px] lg:text-[50px] text-orange-100 left-1/2 uppercase top-40">Skills</h2>
+      <h4 className=" text-[30px] md:text-[50px] lg:text-[70px] text-orange-100 left-1/2 uppercase top-5">Skills</h4>
     
-    <div className="flex flex-wrap gap-5 pb-10  ">
+    <div className="flex flex-wrap gap-5 pb-10 justify-center">
       <img className="w-8"  src={html} alt="html" />
       <img className="w-8"  src={css} alt="css" />
       <img className="w-8"  src={javascript} alt="javascript" />
