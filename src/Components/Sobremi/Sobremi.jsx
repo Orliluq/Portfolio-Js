@@ -59,7 +59,7 @@ const SobreMi = () => {
   }, []);
 
   return (
-     <div id="sobremi" className={`${scrolear ? 'bg-orange-400' : 'bg-blue-950'} md:min-h-auto w-full h-screen flex flex-col md:flex-row lg:flex-row px-10 lg:px-16 gap-5 md:gap-10 lg:gap-20 pt-5 lg:pt-20 pb-8 transition-all duration-500`}>
+    <div id="sobremi" className={`${scrolear ? 'bg-orange-400' : 'bg-blue-950'} w-full min-h-screen flex flex-col md:flex-row lg:flex-row px-10 lg:px-16 gap-5 md:gap-10 lg:gap-20 pt-5 lg:pt-20 pb-8 transition-all duration-500 overflow-auto`}>
       <motion.div className="relative flex items-end  justify-center w-full " 
        ref={ref}
        initial="hidden"
@@ -83,9 +83,9 @@ const SobreMi = () => {
         }}
         transition={{ duration: 0.5 }}>
 
-    <h1 className=" font-bold tracking-tighter text-[20px] md:text-[40px] lg:text-[60px]  text-red-300 left-1/2 uppercase top-12  ">Sobre mi</h1>
+    <h1 className=" font-bold tracking-tighter text-[20px] md:text-[40px] lg:text-[60px] pt-6 text-red-300 left-1/2 uppercase top-14  ">Sobre mi</h1>
       <p className="  text-orange-100 left-1/2 right-14 top-24  ">Hola 👋🏼 mi nombre es Orli Dun, gracias por estar aquí, un gusto que conozcas mi trabajo. Quiero contarte que me encanta tanto la experiencia de <strong className='text-[#e8f05d]'>usuario</strong> como el lado del <strong className='text-[#e8f05d]'>servidor.</strong> Me esfuerzo en la creación de soluciones funcionales con interfaces creativas e innovadoras. </p>
-      <h4 className=" text-[30px] md:text-[50px] lg:text-[70px] text-orange-100 left-1/2 uppercase top-5">Skills</h4>
+      <h4 className=" text-[30px] md:text-[50px] lg:text-[70px] text-orange-100 left-1/2 uppercase">Skills</h4>
     
     <div className="flex flex-wrap gap-5 pb-10 justify-center">
       <img className="w-8"  src={html} alt="html" />
