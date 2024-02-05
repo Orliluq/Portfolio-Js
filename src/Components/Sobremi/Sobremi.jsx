@@ -59,7 +59,7 @@ const SobreMi = () => {
   }, []);
 
   return (
-    <div id="sobremi" className={`${scrolear ? 'bg-orange-400' : 'bg-blue-950'} w-full h-screen flex flex-col md:flex-row lg:flex-row px-10 lg:px-16 gap-5 md:gap-10 lg:gap-20 pt-5 lg:pt-20 pb-8 transition-all duration-500`}>
+     <div id="sobremi" className={`${scrolear ? 'bg-orange-400' : 'bg-blue-950'} md:min-h-auto w-full h-screen flex flex-col md:flex-row lg:flex-row px-10 lg:px-16 gap-5 md:gap-10 lg:gap-20 pt-5 lg:pt-20 pb-8 transition-all duration-500`}>
       <motion.div className="relative flex items-end  justify-center w-full " 
        ref={ref}
        initial="hidden"
